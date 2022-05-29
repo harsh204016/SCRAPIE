@@ -20,7 +20,8 @@ Once these steps are complete, go ahead and run `python app.py` This will run th
 
 # Quick Try
 
-Visit the below deployed link of our website.
+Visit the below  link of our website.
+
 http://hackistica22-hackfrenz.herokuapp.com/
 
 
