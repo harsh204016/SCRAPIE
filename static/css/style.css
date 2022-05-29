@@ -226,7 +226,8 @@ ul li {
   font-size: 25px;
   line-height: 45px;
   transition: .6s;
-  color: #FA4359;
+  color: #ffffff;
+  /* color: #FA4359; */
 }
 
 .social-menu ul li a{
