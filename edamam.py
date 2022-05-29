@@ -1,12 +1,7 @@
 import requests
 import os
 
-
-
-
 def recipe_search(ingredient, health, preference,app_id,app_key):
-    
-    
     # basic request
     request = f'https://api.edamam.com/search?q={ingredient}&app_id={app_id}&app_key={app_key}'
 

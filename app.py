@@ -8,12 +8,10 @@ app.config.from_object('config')
 app_id = app.config["APP_ID"]
 app_key = app.config["APP_KEY"]
 
-
 # use the route decorator to tell Flask what URL should trigger our function.
 @app.route('/')
 def index():
     return render_template('index.html')
-
 
 @app.route('/recipe')
 def show_recipe():
@@ -24,11 +22,9 @@ def show_recipe():
     # set second argument to pass the data
     return render_template('recipe.html', hits=hits)
 
-
 @app.route('/about')
 def about():
     return render_template('about.html')
-
 
 # it checks if a module is being imported or not
 if __name__ == '__main__':
