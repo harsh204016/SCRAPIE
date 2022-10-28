@@ -8,19 +8,19 @@ A web app that uses Python to quickly find recipes according to the ingredients 
 <!-- ![showcase](/static/images/scrapie-showcase.png)
 ![showcase](/static/images/scrapie-showcase_2.png) -->
 
-# How to run locally?
+# How to locally run this project?
 
-The code files can be made to run locally on the system. One needs to download the .zip file of our codes from the github repo: https://github.com/InquisitiveMe15/SCRAPIE/ After extracting the files, one can navigate to the proper folders through the terminal.
+The code files could be run locally on the system. One needs to download the .zip file of our codes from the GitHub repo: https://github.com/InquisitiveMe15/SCRAPIE/  After extracting the files, one can navigate to the proper folders through the terminal.
 
-* Create a virtual environment locally using `python -m venv name` and actiavte it using `name/Scripts/activate`
+* Create a virtual environment locally using `python -m venv environment_name` and activate it using `environment_name\Scripts\activate`
 
 * Following, run `pip install flask` in the terminal and check for any other library that might be causing some difficulty on your system. 
 
-Once these steps are complete, go ahead and run `python app.py` This will run the application on localhost port. Navigate to the web page and explore the enjoyable Web Application.
+Once these steps are complete, go ahead and run `python app.py` This will run the application on the localhost port. Navigate to the web page and explore the enjoyable Web Application.
 
 # Quick Try
 
-Visit the below  link of our website.
+Visit our website with the below link.
 
 http://hackistica22-hackfrenz.herokuapp.com/
 
