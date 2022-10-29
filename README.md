@@ -14,7 +14,7 @@ The code files could be run locally on the system. One needs to download the .zi
 
 * Create a virtual environment locally using `python -m venv environment_name` and activate it using `environment_name\Scripts\activate`
 
-* Following, run `pip install flask` in the terminal and check for any other library that might be causing some difficulty on your system. 
+* After activating the virtual environment, run `python -m pip install -r requirements.txt` in the terminal. 
 
 Once these steps are complete, go ahead and run `python app.py` This will run the application on the localhost port. Navigate to the web page and explore the enjoyable Web Application.
 
