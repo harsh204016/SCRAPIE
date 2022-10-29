@@ -16,6 +16,8 @@ The code files could be run locally on the system. One needs to download the .zi
 
 * After activating the virtual environment, run `python -m pip install -r requirements.txt` in the terminal, it will install all dependencies.
 
+* Make your own creditials for [edamam](https://www.edamam.com/) and store the same in config.py file.
+
 Once these steps are complete, go ahead and run `python app.py` This will run the application on the localhost port. Navigate to the web page and explore the enjoyable Web Application.
 
 # Quick Try
